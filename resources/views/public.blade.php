@@ -3,9 +3,11 @@
 <head>
     <title>@yield('title')</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/materialize.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/public.min.css') }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     @yield('css')
 </head>
